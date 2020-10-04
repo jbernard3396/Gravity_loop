@@ -2,7 +2,7 @@
 Plot your trajectory to survive in extreme environments until the science is done
 
 # How to Run
-Download the .zip or just play [here]|(https://jbernard3396.itch.io/orbitz)
+Download the .zip or just play [here](https://jbernard3396.itch.io/orbitz)
 
 # Objective
 Stay alive without crashing to generate science. Collect blue bonuses to gain 2 extra science and then you can spend them on upgrades.  
