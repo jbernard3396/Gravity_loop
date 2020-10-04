@@ -252,10 +252,10 @@ function create_shop()
  item.deaction = function()
  end
  item.action = function() 
-  //if item.upgrades[item.index].bought == false and item.upgrades[item.index].cost <= bonuses_left then
-     item.upgrades[item.index].bought = true 
-     bonuses_left -=   item.upgrades[item.index].cost
-  //end
+  if item.upgrades[item.index].bought == false and item.upgrades[item.index].cost <= bonuses_left then
+   item.upgrades[item.index].bought = true 
+   bonuses_left -=   item.upgrades[item.index].cost
+  end
  end
  item.check_upgrade = function(upgrade)
   local bought = false
